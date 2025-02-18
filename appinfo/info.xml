@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>pexels</id>
+	<name>Pexels</name>
+	<summary>Test de création d'app Pexels pour Nextcloud</summary>
+	<description>Test de création d'app Pexels pour Nextcloud</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author mail="pascal@plumia.net" homepage="">Pascal Prugna</author>
+	<namespace>Pexels</namespace>
+	<category>tools</category>
+	<bugs>https://plumia.net</bugs>
+	<dependencies>
+		<nextcloud min-version="29" max-version="29"/>
+	</dependencies>
+	<settings>
+		<admin>OCA\Pexels\Settings\Admin</admin>
+		<admin-section>OCA\Pexels\Settings\AdminSection</admin-section>
+	</settings>
+</info>
